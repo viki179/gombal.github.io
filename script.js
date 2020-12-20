@@ -13,7 +13,7 @@ if (url.searchParams.get('by') != null) {
 document.querySelector(".tombol").addEventListener('click', function() {
     Swal.fire("Hallo Ukhti", "Aku ada pertanyaan nih buat kamu ", "question").then(function() {
         Swal.fire("Jawab yang jujur ya!").then(function() {
-            Swal.fire("Awas aja kalau kamu bohong karena bohong itu dosa", "", "error").then(function() {
+            Swal.fire("Awas aja kalau kamu bohong karena bohong itu dosa", "", "error").then(function() {  
 
                 const {
                     value: name
