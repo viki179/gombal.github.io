@@ -342,7 +342,7 @@ function confetti() {
             // Start the loop
             var prev = undefined;
             requestAnimationFrame(function loop(timestamp) {
-                var delta = prev ? timestamp - prev : 0;
+                var delta = prev ? timestamp - prev : 0;  
                 prev = timestamp;
                 var height = $window.height();
 
