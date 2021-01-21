@@ -26,7 +26,7 @@ document.querySelector(".tombol").addEventListener('click', function() {
                         if (!value) {
                             return 'Isi dulu dong ukhti'
                         } else {
-                            nama = value;
+                            nama = value; 
                         }
                     }
                 }).then(function() {
